@@ -32,6 +32,18 @@ describe RomanNumerals do
             expect(roman_numerals.converter(5)).to eq('V')
         end
 
+        it 'Returns a string of VI when provided with an integer of 6' do
+            roman_numerals = described_class.new
+
+            expect(roman_numerals.converter(6)).to eq('VI')
+        end
+
+        it 'Returns a string of VII when provided with an integer of 7' do
+            roman_numerals = described_class.new
+
+            expect(roman_numerals.converter(7)).to eq('VII')
+        end
+
 
 
     end
