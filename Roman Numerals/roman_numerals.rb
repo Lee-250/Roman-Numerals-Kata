@@ -11,21 +11,18 @@ class RomanNumerals
         return 'IV'
         end
 
-        if integer > 4
+        # Deals with 5 -> 8
+        if integer > 4 && integer <= 8
             units = integer % 5
             return 'V' + 'I' * units
         end
 
-        # Deals with between 5 - 8
-        # if integer == 5
-        #     return 'V'
-        # elsif integer == 6
-        #     return 'VI'
-        # elsif integer == 7
-        #     return 'VII'
-        # else
-        #     return 'VIII'
-        # end
+        if integer == 9
+            return 'IX'
+        end
+
+
+       
     
 
     end

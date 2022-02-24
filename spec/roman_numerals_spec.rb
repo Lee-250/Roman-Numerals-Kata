@@ -48,6 +48,11 @@ describe RomanNumerals do
 
             expect(roman_numerals.converter(8)).to eq('VIII')
         end
+        it 'Returns a string of IX when provided with an integer of 9' do
+            roman_numerals = described_class.new
+
+            expect(roman_numerals.converter(9)).to eq('IX')
+        end
 
 
 
