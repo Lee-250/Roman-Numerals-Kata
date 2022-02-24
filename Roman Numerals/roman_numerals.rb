@@ -5,7 +5,11 @@ class RomanNumerals
             return 'I' * integer
         end
 
+        if integer == 4
         return 'IV'
+        else
+            return 'V'
+        end
 
     end
 

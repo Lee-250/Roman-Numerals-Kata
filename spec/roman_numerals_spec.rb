@@ -26,6 +26,12 @@ describe RomanNumerals do
             expect(roman_numerals.converter(4)).to eq('IV')
         end
 
+        it 'Returns a string of V when provided with an integer of 5' do
+            roman_numerals = described_class.new
+
+            expect(roman_numerals.converter(5)).to eq('V')
+        end
+
 
 
     end
