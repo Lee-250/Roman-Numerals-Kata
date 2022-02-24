@@ -18,6 +18,8 @@ class RomanNumerals
             return 'VI'
         elsif integer == 7
             return 'VII'
+        else
+            return 'VIII'
         end
     
 
