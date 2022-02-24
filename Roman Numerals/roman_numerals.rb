@@ -1,15 +1,8 @@
 class RomanNumerals
     def converter(integer)
-        if integer === 1
-            return 'I'
-        end
-
-        if integer === 2
-            return 'II'
-        end
-
-        if integer === 3
-            return 'III'
+       
+        if integer < 4
+            return 'I' * integer
         end
         
     end
