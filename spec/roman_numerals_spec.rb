@@ -1,4 +1,4 @@
-require_relative '../roman_numerals.rb'
+require_relative '../Roman Numerals/roman_numerals.rb'
 
 
 describe RomanNumerals do
